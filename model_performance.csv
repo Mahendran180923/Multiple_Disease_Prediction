@@ -1,0 +1,6 @@
+Model,Accuracy,Precision,Recall,F1-Score,ROC AUC,Best Params
+Logistic Regression,0.975,1.0,0.96,0.9795918367346939,0.9993333333333333,"{'C': 10, 'penalty': 'l1'}"
+Decision Tree,0.975,1.0,0.96,0.9795918367346939,0.98,"{'max_depth': None, 'min_samples_leaf': 1}"
+Random Forest,1.0,1.0,1.0,1.0,1.0,"{'max_depth': None, 'min_samples_leaf': 1, 'n_estimators': 200}"
+AdaBoost,0.9625,1.0,0.94,0.9690721649484536,1.0,"{'learning_rate': 1, 'n_estimators': 300}"
+XGBoost,1.0,1.0,1.0,1.0,1.0,"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 200, 'subsample': 0.8}"
